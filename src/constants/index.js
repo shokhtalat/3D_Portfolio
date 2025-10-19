@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
     {
         imgPath: "/images/seo.png",
-        title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
+        title: "Commitment to Quality",
+        desc: "I take pride in writing clean, maintainable code and ensuring every feature meets the highest standards.",
     },
     {
         imgPath: "/images/chat.png",
-        title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        title: "Clear Communication",
+        desc: "I communicate effectively with both local and international teams, leveraging my Korean language skills to ensure smooth collaboration and understanding.",
     },
     {
         imgPath: "/images/time.png",
-        title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        title: "Dependable and Punctual",
+        desc: "I consistently meet deadlines and deliver results that align with team goals and project timelines.",
     },
 ];
 

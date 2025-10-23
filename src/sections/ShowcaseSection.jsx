@@ -48,20 +48,23 @@ const AppShowcase = () => {
             <div className="w-full">
                 <div className="showcaselayout">
                     <div ref={rydeRef} className="first-project-wrapper">
-                        <div className="image-wrapper">
-                            <img src="/images/image2.png" alt="Ryde App Interface" />
-                        </div>
-                        <div className="text-content">
-                            <h2>
-                                Two Wheelers — Making Motorcycle Buying Simple, Fast, and Reliable.
-                            </h2>
-                            <p className="text-white-50 md:text-xl">
-                                A full-stack platform built with Next.js, GraphQL, and NestJS for a fast, reliable, and scalable experience.
-                            </p>
-                        </div>
+                        <a href={'http://two-wheelers.shokhtalat.org/'} target="_blank">
+                            <div className="image-wrapper">
+                                <img src="/images/image2.png" alt="Two-Wheelers app interface" />
+                            </div>
+                            <div className="text-content">
+                                <h2>
+                                    Two Wheelers — Making Motorcycle Buying Simple, Fast, and Reliable.
+                                </h2>
+                                <p className="text-white-50 md:text-xl">
+                                    A full-stack platform built with Next.js, GraphQL, and NestJS for a fast, reliable, and scalable experience.
+                                </p>
+                            </div>
+                        </a>
                     </div>
 
                     <div className="project-list-wrapper overflow-hidden">
+                        <a href="https://signalist-stock-tracker-app-one.vercel.app/" target="_blank">
                         <div className="project" >
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
@@ -71,13 +74,15 @@ const AppShowcase = () => {
                             </div>
                             <h2>A live stock tracking app featuring smart alerts, interactive charts, and AI-powered insights.</h2>
                         </div>
-
-                        <div className="project" ref={ycDirectoryRef}>
-                            <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="/images/image0.png" alt="Organick" />
+                        </a>
+                        <a href="http://organick.shokhtalat.org/" target="_blank">
+                            <div className="project" ref={ycDirectoryRef}>
+                                <div className="image-wrapper bg-[#FFE7EB]">
+                                    <img src="/images/image0.png" alt="Organick" />
+                                </div>
+                                <h2>Organick online shop</h2>
                             </div>
-                            <h2>Organick online shop</h2>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

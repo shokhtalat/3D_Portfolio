@@ -1,6 +1,6 @@
 const navLinks = [
     {
-        name: "Work",
+        name: "Top Projects",
         link: "#work",
     },
     {

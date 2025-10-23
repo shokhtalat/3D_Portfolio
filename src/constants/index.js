@@ -11,10 +11,6 @@ const navLinks = [
         name: "Skills",
         link: "#skills",
     },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
 ];
 
 const words = [
@@ -236,8 +232,9 @@ const testimonials = [
 
 const socialImgs = [
     {
-        name: "insta",
-        imgPath: "/images/insta.png",
+        name: "github",
+        imgPath: "/images/github.png",
+        link: "https://github.com/shokhtalat",
     },
     {
         name: "fb",

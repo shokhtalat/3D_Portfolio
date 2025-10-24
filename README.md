@@ -1,16 +1,58 @@
-# React + Vite
+# 🎨 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A highly interactive personal website featuring animated 3D scenes, smooth camera transitions, and responsive design.  
+Showcases interactive 3D models and fluid animations — creating an immersive experience perfect for developers, designers, and freelancers.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://shokhtalat.org](https://shokhtalat.org)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **3D Experience:** Immersive 3D scenes built with **Three.js** and **React Three Fiber**, using **Drei** for optimized 3D utilities.  
+- **Smooth Animations:** **GSAP** powers camera transitions and object motion for cinematic effects.  
+- **Responsive Design:** **Tailwind CSS** ensures a fully responsive experience across devices.  
+- **EmailJS Integration:** Contact form sends messages directly via **EmailJS**, no backend required.  
+- **Optimized Build:** Compiled with **Vite** for blazing-fast development and performance.  
+- **Deployment:** Deployed on a **VPS** with **NGINX + SSL (Certbot)** for secure, production-grade delivery.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+| Category | Tools / Frameworks |
+|-----------|--------------------|
+| **3D & Graphics** | Three.js · React Three Fiber · Drei |
+| **Animations** | GSAP |
+| **Frontend** | React 19 · Tailwind CSS · Vite |
+| **Integration** | EmailJS |
+| **Deployment** | NGINX · VPS · Certbot (SSL) |
+
+---
+
+## ⚙️ Setup & Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/shokhtalat/3D_Portfolio.git
+cd 3D_Portfolio
+
+# Install dependencies
+pnpm install
+# or
+npm install
+
+# Run the development server
+pnpm dev
+# or
+npm run dev
+
+# Build for production
+pnpm build
+# or
+npm run build
+
+# Preview production build
+pnpm preview
+# or
+npm run preview

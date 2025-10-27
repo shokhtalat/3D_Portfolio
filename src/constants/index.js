@@ -239,6 +239,7 @@ const socialImgs = [
     {
         name: "fb",
         imgPath: "/images/fb.png",
+        link: "https://www.facebook.com/shokhtalat"
     },
     {
         name: "x",
@@ -247,6 +248,7 @@ const socialImgs = [
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
+        link: "https://www.linkedin.com/in/shokhtalat",
     },
 ];
 
